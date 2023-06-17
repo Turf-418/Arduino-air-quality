@@ -1,0 +1,27 @@
+{
+  "cpu": {
+    "fqbn": "arduino:samd:nano_33_iot",
+    "name": "Arduino NANO 33 IoT",
+    "type": "serial"
+  },
+  "secrets": [
+    {
+      "name": "SECRET_OPTIONAL_PASS",
+      "value": ""
+    },
+    {
+      "name": "SECRET_SSID",
+      "value": ""
+    }
+  ],
+  "included_libs": [
+    {
+      "name": "Adafruit CCS811 Library",
+      "version": "1.1.1"
+    },
+    {
+      "name": "WiFiNINA_Generic",
+      "version": "1.8.15-1"
+    }
+  ]
+}
