@@ -44,5 +44,3 @@ Per installare e utilizzare il progetto Air Quality, seguire i seguenti passaggi
 ## Contributi e supporto
 Sono benvenuti contributi e suggerimenti per migliorare il progetto Air Quality. 
 
-## Licenza
-Il progetto Air Quality è rilasciato sotto la licenza [MIT License](https://opensource.org/licenses/MIT). Fare riferimento al file LICENSE per ulteriori informazioni.
