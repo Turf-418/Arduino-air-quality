@@ -1,45 +1,47 @@
-# Progetto Air Quality
+# Air Quality Project
 
-## Descrizione del progetto
-Il progetto Air Quality si propone di monitorare la qualità dell'aria utilizzando Arduino e una serie di sensori. L'obiettivo è raccogliere dati sulle principali componenti dell'aria, come la presenza di gas inquinanti e le particelle sospese, al fine di valutare la qualità complessiva dell'ambiente circostante.
+## Project Description.
+The Air Quality project aims to monitor air quality using Arduino and a series of sensors. The goal is to collect data on major air components, such as the presence of pollutant gases and suspended particles, in order to assess the overall quality of the surrounding environment.
 
-## Componenti del progetto
-Il progetto fa uso dei seguenti componenti e sensori:
+## Project components.
+The project makes use of the following components and sensors:
 
-1. Arduino Nano 33 IoT: Una piattaforma open-source di prototipazione elettronica che viene utilizzata come base per il progetto.
-2. Sensori aggiuntivi:
-   - CCS811 Adafruit: Un sensore di gas che rileva la presenza di anidride carbonica (CO2) e composti organici volatili (VOC) nell'aria.
-   - PMS 5003: Un sensore di particelle sospese nel PM2.5 e PM10, che misura la quantità di particelle fini nell'aria.
-   - Multichannel Gas Sensor della Groove Seed: Un sensore che rileva la presenza di vari gas inquinanti come monossido di carbonio (CO), ammoniaca (NH3) e benzene (C6H6).
-   - Sensore di temperatura DHT11: Un sensore che misura la temperatura e l'umidità ambiente.
+1. Arduino Nano 33 IoT: An open-source electronic prototyping platform that is used as the basis for the project.
+2. Additional sensors:
+   - CCS811 Adafruit: A gas sensor that detects the presence of carbon dioxide (CO2) and volatile organic compounds (VOCs) in the air.
+   - PMS 5003: A suspended particle sensor in PM2.5 and PM10, which measures the amount of fine particles in the air.
+   - Multichannel Gas Sensor from Groove Seed: A sensor that detects the presence of various pollutant gases such as carbon monoxide (CO), ammonia (NH3) and benzene (C6H6).
+   - Temperature sensor DHT11: A sensor that measures ambient temperature and humidity.
 
-## Linguaggio di programmazione
-Il progetto Air Quality viene implementato utilizzando il linguaggio di programmazione C/C++ con l'IDE di Arduino.
+## Programming language.
+The Air Quality project is implemented using the C/C++ programming language with the Arduino IDE.
 
-## Arduino Cloud e file thingProperties.h
-Arduino Cloud è una piattaforma basata su cloud che offre un'interfaccia web per monitorare e controllare i dispositivi Arduino. Nel contesto del progetto Air Quality, è possibile utilizzare Arduino Cloud per visualizzare i dati raccolti dai sensori e controllare eventuali azioni associate.
+## Arduino Cloud and thingProperties.h file.
+Arduino Cloud is a cloud-based platform that provides a web interface to monitor and control Arduino devices. In the context of the Air Quality project, Arduino Cloud can be used to view data collected from sensors and control any associated actions.
 
-Il file "thingProperties.h" contiene le variabili che devono essere utilizzate nell'interfaccia web di Arduino Cloud per monitorare i sensori e visualizzare i dati corrispondenti. Questo file definisce le proprietà del dispositivo che devono essere registrate sulla piattaforma. Le variabili incluse possono essere personalizzate in base alle specifiche del progetto.
+The file "thingProperties.h" contains the variables to be used in the Arduino Cloud web interface to monitor the sensors and display the corresponding data. This file defines the device properties that are to be registered on the platform. The included variables can be customized to the project specifications.
 
-## File Gerber per la creazione del PCB
-Per coloro che desiderano creare il proprio PCB per il progetto Air Quality, è disponibile un file Gerber. I file Gerber contengono le informazioni necessarie per la produzione dei circuiti stampati. Utilizzando il file Gerber, è possibile inviare i dati a un produttore di PCB per ottenere il proprio circuito stampato personalizzato.
+## Gerber file for PCB creation.
+For those who wish to create their own PCB for the Air Quality project, a Gerber file is available. Gerber files contain the information needed for PCB production. Using the Gerber file, you can send the data to a PCB manufacturer to get your own custom printed circuit board.
 
-## Contenuti del repository
-Il repository del progetto contiene i seguenti file:
+## Repository contents.
+The project repository contains the following files:
 
-- `AirQuality.ino`: Il file principale del codice Arduino che gestisce la lettura dei sensori e l'invio dei dati a Arduino Cloud.
-- `thingProperties.h`: Il file che definisce le variabili e le proprietà del dispositivo per l'interfaccia web di Arduino Cloud.
-- `Gerber.zip`: L'archivio ZIP contenente il file Gerber per la creazione del PCB.
+- `AirQuality.ino`: The main Arduino code file that handles reading sensors and sending data to Arduino Cloud.
+- `thingProperties.h`: The file that defines device variables and properties for the Arduino Cloud web interface.
+- `Gerber.zip`: The ZIP archive containing the Gerber file for creating the PCB.
 
-## Guida all'installazione e all'utilizzo
-Per installare e utilizzare il progetto Air Quality, seguire i seguenti passaggi:
+## Installation and usage guide.
+To install and use the Air Quality project, follow the following steps:
 
-1. Collegare i sensori al dispositivo Arduino secondo lo schema di collegamento fornito.
-2. Aprire il file `AirQuality.ino` con l'IDE di Arduino.
-3. Caricare il codice sul dispositivo Arduino.
-4. Modificare il file `thingProperties.h` per adattarlo alle specifiche del proprio progetto e all'interfaccia web di Arduino Cloud.
-5. Configurare e registrare il dispositivo su Arduino Cloud seguendo le istruzioni fornite dalla piattaforma.
-6. Utilizzare l'interfaccia web di Arduino Cloud per monitorare i sensori e visualizzare i dati raccolti.
+1. Connect the sensors to the Arduino device according to the connection diagram provided.
+2. Open the `AirQuality.ino` file with the Arduino IDE.
+3. Upload the code to the Arduino device.
+4. Modify the `thingProperties.h` file to fit the specifications of your project and the Arduino Cloud web interface.
+5. Configure and register the device on Arduino Cloud following the instructions provided by the platform.
+6. Use the Arduino Cloud web interface to monitor the sensors and visualize the collected data.
 
-## Contributi e supporto
-Sono benvenuti contributi e suggerimenti per migliorare il progetto Air Quality. 
+## Contributions and support
+Contributions and suggestions for improving the Air Quality project are welcome. 
+
+Translated with www.DeepL.com/Translator (free version)
