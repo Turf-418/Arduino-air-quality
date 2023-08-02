@@ -43,5 +43,3 @@ To install and use the Air Quality project, follow the following steps:
 
 ## Contributions and support
 Contributions and suggestions for improving the Air Quality project are welcome. 
-
-Translated with www.DeepL.com/Translator (free version)
