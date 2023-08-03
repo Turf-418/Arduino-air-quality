@@ -35,7 +35,7 @@ void setup() {
   while(!ccs.available());
   
   Serial.begin(115200);
-  while (!Serial) delay(10);
+  //while (!Serial) delay(10);
 
   Serial.println("Adafruit PMSA003I Air Quality Sensor");
   
@@ -56,7 +56,7 @@ void loop() {
   MiCS();
   CCS811_sensor();
   Temperatura();
-  //pms();
+  pms();
   
   ArduinoCloud.update();
   
